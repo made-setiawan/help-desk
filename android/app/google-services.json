@@ -1,0 +1,226 @@
+{
+  "project_info": {
+    "project_number": "676854716454",
+    "project_id": "helpdesk-itrsgp",
+    "storage_bucket": "helpdesk-itrsgp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676854716454:android:8faef617af504278ca6ee7",
+        "android_client_info": {
+          "package_name": "com.example.fbmadhe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676854716454-r3tukg4kna1h03ob30r5d5qj4qf6dg69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN24D_o82WEXsT8z8miMsUhv7nklmTn0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676854716454-5mi9qv2br008p24sqgmjruqpu8cj7ili.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "676854716454-5q250f5ilgap4fk92d2t77ngcur6dmmv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flucli"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676854716454:android:adf23fc50ab2e2fdca6ee7",
+        "android_client_info": {
+          "package_name": "com.example.fluauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676854716454-r3tukg4kna1h03ob30r5d5qj4qf6dg69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN24D_o82WEXsT8z8miMsUhv7nklmTn0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676854716454-5mi9qv2br008p24sqgmjruqpu8cj7ili.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "676854716454-5q250f5ilgap4fk92d2t77ngcur6dmmv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flucli"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676854716454:android:f2f5efc27d40e343ca6ee7",
+        "android_client_info": {
+          "package_name": "com.example.flucli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676854716454-r3tukg4kna1h03ob30r5d5qj4qf6dg69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN24D_o82WEXsT8z8miMsUhv7nklmTn0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676854716454-5mi9qv2br008p24sqgmjruqpu8cj7ili.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "676854716454-5q250f5ilgap4fk92d2t77ngcur6dmmv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flucli"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676854716454:android:157db58568b94e9aca6ee7",
+        "android_client_info": {
+          "package_name": "com.example.help_desk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676854716454-r3tukg4kna1h03ob30r5d5qj4qf6dg69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN24D_o82WEXsT8z8miMsUhv7nklmTn0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676854716454-5mi9qv2br008p24sqgmjruqpu8cj7ili.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "676854716454-5q250f5ilgap4fk92d2t77ngcur6dmmv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flucli"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676854716454:android:39b16d193a5e65c0ca6ee7",
+        "android_client_info": {
+          "package_name": "com.example.helpdesk_rsgp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676854716454-r3tukg4kna1h03ob30r5d5qj4qf6dg69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN24D_o82WEXsT8z8miMsUhv7nklmTn0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676854716454-5mi9qv2br008p24sqgmjruqpu8cj7ili.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "676854716454-5q250f5ilgap4fk92d2t77ngcur6dmmv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flucli"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676854716454:android:2d2cc7e15f9dc95aca6ee7",
+        "android_client_info": {
+          "package_name": "com.example.made_hospital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676854716454-r3tukg4kna1h03ob30r5d5qj4qf6dg69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN24D_o82WEXsT8z8miMsUhv7nklmTn0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676854716454-5mi9qv2br008p24sqgmjruqpu8cj7ili.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "676854716454-5q250f5ilgap4fk92d2t77ngcur6dmmv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flucli"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
