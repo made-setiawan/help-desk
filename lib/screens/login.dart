@@ -1,5 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:help_desk/components/button.dart';
@@ -17,8 +18,6 @@ class MyLoginPage extends StatefulWidget {
 }
 
 class _MyLoginPageState extends State<MyLoginPage> {
-  final FirebaseAuth _auth = FirebaseAuth.instance;
-
   final emailTextController = TextEditingController();
   final passwordTextController = TextEditingController();
 
@@ -43,7 +42,6 @@ class _MyLoginPageState extends State<MyLoginPage> {
                   Image.asset(
                     'assets/images/Lock.png',
                     width: 100.0,
-                    height: 100.0,
                     fit: BoxFit.fill,
                   ),
                   const SizedBox(
@@ -98,11 +96,13 @@ class _MyLoginPageState extends State<MyLoginPage> {
                         child: const Text(
                           "Register now",
                           style: TextStyle(
-                              fontWeight: FontWeight.bold, color: Colors.blue),
+                            fontWeight: FontWeight.bold,
+                            color: Colors.blue,
+                          ),
                         ),
                       ),
                     ],
-                  )
+                  ),
                   //not member
                 ],
               ),
@@ -122,24 +122,21 @@ class _MyLoginPageState extends State<MyLoginPage> {
       ),
     );
     try {
-      await _auth.signInWithEmailAndPassword(
+      await FirebaseAuth.instance.signInWithEmailAndPassword(
         email: emailTextController.text,
         password: passwordTextController.text,
       );
 
-      //pop loading circle
-
       // if (context.mounted) Navigator.pop(context);
     } on FirebaseAuthException catch (e) {
+      if (kDebugMode) {
+        print('errrr${e.code}');
+        // displayMessage(e.code);
+      }
       //pop loading circle
       Navigator.pop(context);
       //display
       displayMessage(e.code);
-
-      // if (kDebugMode) {
-      //   // print(e.code);
-      //   displayMessage(e.code);
-      // }
     }
   }
 

@@ -21,7 +21,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
       ),
       body: Column(
-        children: [Text("Logged in as : ${currentUser!.email}")],
+        children: [Text("Welcome : ${currentUser!.email}")],
       ),
     );
   }
